@@ -5,6 +5,8 @@ Simple CRUD app using PHP and MySQL
 
 CREATE DATABASE student;
 
+USE student;
+
 CREATE TABLE student(
   id INT(11) auto_increment,
   first_name VARCHAR(60),
